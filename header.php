@@ -6,5 +6,6 @@
 <body>
 
 	<header>
-		
+		<p class="header_logo">PhotoZone</p>
+		<a class="header_portfolioLink" href="">Portfolio</a>
 	</header>
