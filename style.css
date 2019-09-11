@@ -14,7 +14,6 @@ body {
 
 header {
 	min-height: 80px;
-	padding: 20px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -84,10 +83,12 @@ hr {
 	font-weight: 300;
 	font-family: Roboto, sans-serif;
 	text-decoration: none;
-	color: #3431b5;
-	padding: 10px;
-	border-radius: 5px;
-	margin: 0 10px 0 auto;
+	color: white;
+	padding: 21px 20px;
+	margin: 0 0 0 auto;
+	display: block;
+	background-color: #3431b5;
+	transition: 0.5s;
 }
 
 @media (max-width: 700px) {
@@ -97,7 +98,8 @@ hr {
 }
 
 .header_portfolioLink:hover {
-	color: #5f7;
+	background-color: black;
+	color: #9580c7;
 }
 
 .welcomeSection {
@@ -176,6 +178,7 @@ hr {
 		margin: 0;
 		padding: 10px 5px;
 		background-color: white;
+		border-bottom: 1px solid #777;
 	}
 }
 
@@ -223,7 +226,7 @@ hr {
 
 .serviceSection_service_img {
 	width: 320px;
-	height: 160px;
+	height: 217px;
 	background-size: cover;
 	border: 3px white double;
 }
@@ -238,6 +241,77 @@ hr {
 	margin: 0;
 }
 
+.feedbacksSection {
+	padding: 30px;
+}
+
+.feedbacksSection h2 {
+	color: #3431b5;
+	font-size: 38px;
+}
+
+.feedbacksSection_container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.feedbacksSection_feedback {
+	width: 260px;
+	border: 1px solid #999;
+	z-index: 1;
+	padding: 10px 30px;
+	margin: 10px;
+}
+
+.feedbacksSection_feedback h3 {
+	color: #333;
+	font-size: 22px;
+	font-style: oblique;
+	text-align: left;
+}
+
+.feedbacksSection_feedback p {
+	color:  #555;
+	font-size: 18px;
+}
+
+.portfolioLinkSection {
+	padding: 50px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.portfolioLinkSection h2 {
+	font-size: 28px;
+	color: #3431b5;
+}
+
+.portfolioLinkSection p {
+	color:  #555;
+	width: 80%;
+	text-align: center;
+}
+
+.portfolioLinkSection a {
+	font-size: 24px;
+	font-weight: 300;
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	color: white;
+	padding: 15px 20px;
+	display: inline-block;
+	background-color: #3431b5;
+	transition: 0.5s;
+}
+
+.portfolioLinkSection a:hover {
+	background-color: black;
+	color: #9580c7;
+}
 
 footer {
 	height: 50px;
