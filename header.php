@@ -10,7 +10,7 @@
 
 	<!-- your header logo is the title of the pages, so you need to make it as 'PhotoZone' title and 'PhotoZone portfolio' title -->
 	<header>
-		<p class="header_logo"><?php the_title(); ?></p>
+		<a href="<?php echo site_url('/'); ?>"><p class="header_logo"><?php echo bloginfo('title'); ?></p></a>
 		<a class="header_portfolioLink" href="<?php echo site_url('/portfolio'); ?>">Portfolio</a>
 	</header>
 	
